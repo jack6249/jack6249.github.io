@@ -1,0 +1,37 @@
+baseURL = 'https://jack6249.github.io/'
+languageCode = 'zh-cn'
+title = '咸鱼的技术博客'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  
+  [params.homeInfoParams]
+    Title = "欢迎来到咸鱼的技术空间 👋"
+    Content = "记录技术成长,分享Java后端、AI、Docker等领域的实践与思考"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/jack6249"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 30
